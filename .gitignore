@@ -1,0 +1,30 @@
+node_modules
+package-lock.json
+.env
+# Built objects
+bin/
+gen/
+out/
+build/
+.gradle/
+Captures/
+
+# Directory for internal extracts of native libraries
+lib/
+
+# Local configuration file (contains path to local SDK)
+local.properties
+
+# Log files
+*.log
+
+# Android Studio / IntelliJ files
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+*.iml
+*.ipr
+*.iws
