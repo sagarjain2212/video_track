@@ -6,6 +6,10 @@ on:
       - development # Triggers only for PRs targeting development
     types: [opened, synchronize, reopened]
 
+env:
+  # Opts into Node 24 immediately to satisfy the runner requirements
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   test:
     runs-on: ubuntu-latest
